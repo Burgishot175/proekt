@@ -34,7 +34,7 @@ st.subheader("Избери любими неща")
 
 subject = st.selectbox("Любим предмет:", list(st.session_state.subjects.keys()))
 grade = st.selectbox("Оценки:", list(st.session_state.grades.keys()))
-color = st.selectbox("Оценки:", list(st.session_state.colorss.keys()))
+color = st.selectbox("Оценки:", list(st.session_state.colors.keys()))
 
 if st.button("Запази избора"):
     st.session_state.subjects [color] += 1
