@@ -37,9 +37,9 @@ grade = st.selectbox("Оценки:", list(st.session_state.grades.keys()))
 color = st.selectbox("Оценки:", list(st.session_state.colors.keys()))
 
 if st.button("Запази избора"):
-    st.session_state.subjects [color] += 1
-    st.session_state.grades [sport] += 1
-    st.session_state.colors [sport] += 1
+    st.session_state.subjects [subject] += 1
+    st.session_state.grades [grade] += 1
+    st.session_state.colors [color] += 1
     st.success("Изборът е записан!")
   
 st.divider()
