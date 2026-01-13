@@ -48,7 +48,7 @@ st.subheader(" Резултати")
 
 # Графика за цветовете
 st.write("Любими цветове")
-colors_df = pd.DataFrame.from_dict(
+subjects_df = pd.DataFrame.from_dict(
     st.session_state.subjects, orient="index", columns=["Брой"]
 )
 
@@ -56,13 +56,13 @@ st.bar_chart(subjects_df)
 
 # Графика за спортовете
 st.write("Любими спортове")
-sports_df = pd. DataFrame.from_dict(
+grades_df = pd. DataFrame.from_dict(
     st.session_state.grades, orient="index", columns=["Брой"]
 )
 st.bar_chart(grades_df)
 
 st.write("Любими спортове")
-sports_df = pd. DataFrame.from_dict(
+colors_df = pd. DataFrame.from_dict(
     st.session_state.colors, orient="index", columns=["Брой"]
 )
 st.bar_chart(colors_df)
