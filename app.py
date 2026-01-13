@@ -9,7 +9,7 @@ if "subjects" not in st.session_state:
         "Математика": 0,
         "Български": 0,
         "Програмиране": 0,
-        "Физическо": 0
+        "Физическо": 0,
         "Физика": 0
     }
 if "colors" not in st.session_state:
