@@ -14,11 +14,11 @@ if "subjects" not in st.session_state:
     }
 if "colors" not in st.session_state:
     st.session_state.colors = {
-        "red": 0,
-        "orange": 0,
-        "yellow": 0,
-        "green": 0,
-      "blue": 0
+        "Червен": 0,
+        "Оранжев": 0,
+        "Жълт": 0,
+        "Зелен": 0,
+      "Син": 0
       }
   
 if "grades" not in st.session_state:
