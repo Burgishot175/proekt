@@ -11,6 +11,8 @@ if "subjects" not in st.session_state:
         "Джаз": 0,
         "Рок": 0,
         "Чалга": 0
+        "Техно": 0
+    "Класическа": 0
     }
 if "colors" not in st.session_state:
     st.session_state.colors = {
