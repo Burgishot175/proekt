@@ -6,11 +6,11 @@ st.title(" Любими неща класна анкета")
 # Инициализация на данните
 if "subjects" not in st.session_state:
     st.session_state.subjects = {
-        "Математика": 0,
-        "Български": 0,
-        "Програмиране": 0,
-        "Физическо": 0,
-        "Физика": 0
+        "Поп": 0,
+        "Рап": 0,
+        "Джаз": 0,
+        "Рок": 0,
+        "Чалга": 0
     }
 if "colors" not in st.session_state:
     st.session_state.colors = {
@@ -23,17 +23,17 @@ if "colors" not in st.session_state:
   
 if "grades" not in st.session_state:
     st.session_state.grades = {
-        "6": 0,
-        "5": 0,
-        "4": 0,
-        "3": 0,
-      "2": 0
+        "Български": 0,
+        "Математика": 0,
+        "Физическо": 0,
+        "Програмиране": 0,
+      "Физика": 0
       }
   
 st.subheader("Избери любими неща")
 
-subject = st.selectbox("Любим предмет:", list(st.session_state.subjects.keys()))
-grade = st.selectbox("Среден успех:", list(st.session_state.grades.keys()))
+subject = st.selectbox("Любим жанр музика:", list(st.session_state.subjects.keys()))
+grade = st.selectbox("Любим предмет:", list(st.session_state.grades.keys()))
 color = st.selectbox("Любим цвят:", list(st.session_state.colors.keys()))
 
 if st.button("Запази избора"):
