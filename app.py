@@ -10,8 +10,8 @@ if "subjects" not in st.session_state:
         "Рап": 0,
         "Джаз": 0,
         "Рок": 0,
-        "Чалга": 0
-        "Техно": 0
+        "Чалга": 0,
+        "Техно": 0,
     "Класическа": 0
     }
 if "colors" not in st.session_state:
