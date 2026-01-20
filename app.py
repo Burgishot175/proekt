@@ -47,7 +47,7 @@ st.divider()
 st.subheader(" Резултати")
 
 # Графика за цветовете
-st.write("Любими предмети")
+st.write("Любим жанр музика")
 subjects_df = pd.DataFrame.from_dict(
     st.session_state.subjects, orient="index", columns=["Брой"]
 )
@@ -55,7 +55,7 @@ subjects_df = pd.DataFrame.from_dict(
 st.bar_chart(subjects_df)
 
 # Графика за спортовете
-st.write("Среден успех")
+st.write("Любими предмети")
 grades_df = pd. DataFrame.from_dict(
     st.session_state.grades, orient="index", columns=["Брой"]
 )
